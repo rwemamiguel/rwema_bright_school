@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+.headerPart {
+    background-color: rgb(7, 145, 7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navPart {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+.getStarted {
+    position: relative;
+    left: 250px;
+    background-color: #fff;
+    color: rgb(7, 145, 7);
+    border: none;
+    padding: 7px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 10%;
+}
+.startwords {
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: 55px;
+    font-weight: 540;
+    margin-top: 7%;
+
+
+
+
+}
+.texts {
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 8%;
+    font-family: sans-serif;
+}
+.circle {
+    border-radius: 50%;
+    background-color: black;
+    width: 100%;
+}
+.image{
+    position: relative;
+    width: 50%;
+    height: 70%;
+    background: transparent;
+    margin-top: 6%;
+    z-index: -1;
+
+
+}
+.all {
+    grid-template-columns: repeat(2, 5fr);
+    display: flex;
+    margin: 7%;
+}
