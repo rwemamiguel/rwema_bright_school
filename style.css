@@ -53,9 +53,11 @@ a {
     font-family: sans-serif;
 }
 .circle {
-    border-radius: 50%;
+    border-radius: 50% 50%;
     background-color: black;
-    width: 100%;
+    width: 50px;
+    height: 10%;
+
 }
 .image{
     position: relative;
