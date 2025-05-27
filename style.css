@@ -1,38 +1,51 @@
 body {
     margin: 0;
+    background-color: rgb(191, 243, 191);
+    
+}
+.logo {
+    display: flex;
+    margin-left: -160px;
+    margin-bottom: -60px;
 }
 .headerPart {
     background-color: rgb(7, 145, 7);
     position: fixed;
     width: 100%;
+    height: 80px;
     top: 0;
+    
 }
 .navPart {
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
     display: flex;
     gap: 10px;
     justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+        
 }
 a {
     text-decoration: none;
     color: #fff;
     
 }
-
+.why {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 100px;
+}
 
 .getStarted {
     position: relative;
-    left: 250px;
+    left: 100px;
     background-color: #fff;
     color: rgb(7, 145, 7);
     border: none;
     padding: 7px;
     font-family: sans-serif;
     border-radius: 5px;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 0px;
     width: 10%;
 }
 .startwords {
@@ -48,29 +61,266 @@ a {
 }
 .texts {
     width: 50%;
-    margin-top: 2%;
+    margin-top: -2%;
     margin-left: 8%;
     font-family: sans-serif;
 }
 .circle {
     border-radius: 50% 50%;
-    background-color: black;
-    width: 50px;
-    height: 10%;
+    width: 100px;
+    height: 70px;
+    position: relative;
+    right: 250px;
+    bottom: -100px;
+    background-color: #fff;
+    z-index: -1;
 
 }
+.ratenbr {
+    
+    margin-top: 10px;
+    font-family: sans-serif;
+    margin-left: 24%;
+    font-size: 13px;
+    
+}
+
 .image{
     position: relative;
-    width: 50%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     background: transparent;
-    margin-top: 6%;
     z-index: -1;
+
 
 
 }
 .all {
     grid-template-columns: repeat(2, 5fr);
     display: flex;
-    margin: 7%;
+    margin-top: 7%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.search {
+    margin-top: 2%;
+    margin-left: 8%;
+    
+    
+}
+
+.choose {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.searchInput{
+    border-radius: 3px 0px 0px 3px;
+    border: 2px solid rgb(7, 145, 7);
+    padding: 9px;
+    font-size: 16px;
+    width: 300px;
+    background-color: #aee5b6;
+}
+.searchbutt {
+    background-color: rgb(7, 145, 7);
+    color: rgb(247, 247, 247);
+    border: none;
+    padding: 9px;
+    border-radius: 0px 5px 5px 0px;
+    position: absolute;
+    width: 40px;
+    height: 41px;
+    
+}
+.anotherAll {
+    grid-template-columns: repeat(2, 5fr);
+    display: flex;
+}
+.w284 {
+    
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.tw {
+
+}
+
+.totalCourses {
+    display: flex;
+    z-index: -1;
+    position: absolute;
+    right: 520px;
+    top: 350px;
+    background: #f3f2f2;
+    height: 45px;
+    width: 135px;
+    border-radius: 5px;
+    font-family: sans-serif;  
+}
+
+.icon3{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(9, 146, 9);
+    border-radius: 50%;
+
+}
+.footer1{
+    display: flex;
+    background-color: rgb(30, 241, 30);
+}
+
+.about {
+    grid-template-columns: repeat(2, 5fr);
+    display: flex;
+    gap: 25px;
+    margin: 20px;
+    justify-content: center;
+    gap: 100px;
+
+
+}
+.flexible {
+    box-shadow: 2px 2px 2px 2px #999a99;
+    background-color: #caf1c4;
+    background: blur(5px);
+    border-radius: 7px;
+    height: 260px;
+    width: 17%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #213427;
+    
+}
+.buton{
+    position: relative;
+    left: 400px;
+    background-color: #09cf34;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    width: 100px;
+    color: #fff;
+    font-size: 16px;
+    z-index: -1;
+}
+
+.categories {
+    grid-template-columns: repeat(2, 5fr);
+    display: flex;
+    margin-bottom: 10px;
+}
+.wholecategories{
+    gap: 25px;
+    margin: 20px;
+    border-radius: 7px;
+    height: 40%;
+    width: 20%;
+    text-align: center;
+    background-color: #9ef190;
+    font-family: sans-serif;
+    color: #033503;
+}
+.icon2 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(9, 146, 9);
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 37%;
+
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(136, 172, 136);
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 4%;
+
+}
+.hline {
+    padding: 1px;
+    background-color: #09cf34;
+    width: 95%;
+    background: linear-gradient(to right, red 50%  blue 50%);
+
+
+
+}
+
+
+
+.footer1 {
+    display: flex;
+    background-color: rgb(7, 145, 7);
+    color: #fff;
+    margin-top: 5%;
+    justify-content: center;
+    height: 200px;
+    margin-top: 0px;
+
+}
+.n1{
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.footertexts {
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-left: 5%; 
+}
+.footerInput {
+    border-radius: 3px ;
+    border: none;
+    margin-bottom: 7px;
+    padding: 9px;
+    font-size: 16px;
+    width: 200px;
+    background-color: #aee5b6;
+}
+.footerButton{
+    color: rgb(7, 145, 7);
+    background-color: rgb(247, 247, 247);
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    width: 100px;
+    height: 35px;
+    
+}
+.in {
+    display: grid;
+    margin: 4px;
+}
+.footerLine {
+    
+    background-color: #f2f3f2;
+    width: 90%;
+    margin-top: 10px;
+    
+}
+.coname {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: #fff;
+    
+}
+.mi {
+    color: yellow;
+    font-family: cursive;
+}
+.ftlogo {
+    display: flex;
+}
+.ftexts{
+    font-family: sans-serif;
+    font-size: 10px;
+
 }
